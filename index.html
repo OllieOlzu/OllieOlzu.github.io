@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ollie Olzu Github</title>
+        <style>
+            /* Copyed code from CramWise for background and scroll */
+            * { box-sizing: border-box; }
+            html, body { margin: 0; padding: 0; height: 100%; width: 100%; font-family: system-ui, -apple-system, sans-serif; }
+            .flex { display: flex; }
+            .flex-col { flex-direction: column; }
+            .flex-1 { flex: 1 1 0%; }
+            .h-full { height: 100%; }
+            .w-full { width: 100%; }
+            .relative { position: relative; }
+            .absolute { position: absolute; }
+            .content { display: flex; flex-direction: column; min-height: 100vh; position: relative; z-index: 0; }
+            .inset-0 { top: 0; right: 0; bottom: 0; left: 0; }
+            .overflow-hidden { overflow: hidden; }
+            .overflow-y-auto { overflow-y: auto; }
+            .z-10 { z-index: 10; }
+            .pointer-events-none { pointer-events: none; }
+            .items-center { align-items: center; }
+            .px-4 { padding-left: 1rem; padding-right: 1rem; }
+            .p-6 { padding: 1.5rem; }
+            .p-8 { padding: 2rem; }
+            .pt-8 { padding-top: 2rem; }
+            .rounded-lg { border-radius: 0.5rem; }
+            .rounded-full { border-radius: 9999px; }
+            .backdrop-blur-2xl { backdrop-filter: blur(40px); -webkit-backdrop-filter: blur(40px); }
+            .transition-all { transition: all 0.1s ease; }
+
+            :root {
+                --app-bg: #0f172a; 
+                --sidebar-bg: rgba(15, 23, 42, 0.4); 
+                --panel-bg: transparent; 
+                --border-color: rgba(56, 189, 248, 0.2); 
+                --accent-teal: #38bdf8;
+                --text-main: #f1f5f9;
+                --text-dim: #94a3b8;
+            }
+
+            body {
+                background-color: var(--app-bg);
+                color: var(--text-main);
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+
+            ::-webkit-scrollbar { width: 8px; }
+            ::-webkit-scrollbar-track { background: transparent; }
+            ::-webkit-scrollbar-thumb { background: rgba(56, 189, 248, 0.3); border-radius: 10px; }
+
+            .glow-splotch {
+                position: absolute;
+                border-radius: 9999px;
+                filter: blur(120px);
+                z-index: -10;
+                animation: drift 14s ease-in-out infinite;
+            }
+
+            @keyframes drift {
+                0%, 100% { transform: translate(0, 0); }
+                50% { transform: translate(120px, -120px); }
+            }
+
+            .main {
+                border: 2px solid rgb(255, 255, 255);
+                border-radius: 10px;
+                height: 2500px;
+                width: 90%;
+                margin: 0 auto;
+                margin-top: 100px;
+                background-color: #00000041;
+                margin-bottom: 100px;
+            }
+
+            .main * {
+                margin: 20px;
+            }
+
+            .githubslide {
+                border: 2px solid rgb(255, 255, 255);
+                border-radius: 10px;
+                height: 500px;
+                width: 70%;
+                margin: 0 auto;
+                margin-top: 50px;
+                background-color: #00000041;
+                place-items: center;
+            }
+
+            .githubslide * {
+                margin: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="glow-splotch" style="top: -10%; left: -5%; width: 60vw; height: 60vw; background: rgba(14, 165, 233, 0.2);"></div>
+        <div class="glow-splotch" style="top: 50%; right: -10%; width: 55vw; height: 55vw; background: rgba(37, 99, 235, 0.25); animation-delay: -5s;"></div>
+        <div class="glow-splotch" style="top: 70%; left: 25%; width: 40vw; height: 40vw; background: rgba(45, 212, 191, 0.1); animation-delay: -2s;"></div>
+        <div class="glow-splotch" style="top: 100%; left: -5%; width: 60vw; height: 60vw; background: rgba(14, 165, 233, 0.2);"></div>
+        <div class="glow-splotch" style="top: 150%; right: -10%; width: 55vw; height: 55vw; background: rgba(37, 99, 235, 0.25); animation-delay: -5s;"></div>
+        <div class="glow-splotch" style="top: 200%; left: 25%; width: 40vw; height: 40vw; background: rgba(45, 212, 191, 0.1); animation-delay: -2s;"></div>
+
+        <h1 style="text-align: center; margin-top: 100px; font-size: 100px;">Ollie Young</h1>
+        <div class="main">
+            <h2>Hello, I'm Ollie. Since a young age, I've allways been intested in coding, electronics, computers, engernerring, and maths.</h2>
+            <hr>
+            <p>This is my collection of projects and achivements I've done so far.</p>
+            <br>
+            <h2>Contents:</h2>
+            <p>●Github projects</p>
+            <p>●Electrical engeerneering</p>
+            <p>●Acedemics and athletics</p>
+            <br>
+            <h2>Github</h2>
+            <hr>
+            <a href="https://github.com/OllieOlzu" target="_blank" style="color: rgb(37, 100, 235);">You can find my github here.</a>
+            <p> Since I created my github account when I was 8, I have made many projects about low level coding, microcontrollers, HTML pages, and video games I made.</p>
+            <p>While in my first few years of using it, I put up random HTML I was experiments with (Ivé allways loved messing around with stuff)</p>
+            <p>but recently have put in many projects I am quite proud of.</p>
+
+            <div class="githubslide">
+                <h2>Hello</h2>
+                <h2>Hello</h2>
+                <h2>Hello</h2>
+            </div>
+        </div>
+    </body>
+</html>
