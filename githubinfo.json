@@ -1,0 +1,30 @@
+{
+    "name": "AVR microcontrollers study",
+    "slides": {
+        "1": {
+            "name": "32 bit C kernel to ISO",
+            "link": "https://github.com/OllieOlzu/Easy-32-bit-C-kernel-to-ISO",
+            "image": "screenshots/treechop.png",
+            "description": "In 2025, when I was 13, I made this low level script which turns 32 bit protected mode C kernel file into a iso file using GRUB. In this example, I made a fully functional tree chopping game, which I coded myself. When you run this script, it compiles the file, links it, then builds it with GRUB. I made a collection of code for this, and also a small collection of scripts in one ISO file (I called it OlliesOS), which you will see in the next few slides."
+        },
+        "2": {
+            "name": "32 bit C kernel code",
+            "link": "https://github.com/OllieOlzu/32-bit-C-kernel-code",
+            "image": "screenshots/kernelcode.png",
+            "description": "To pair with my script that compiles and links C scripts into mini operating systems, I made a collection of my favrioute self coded (Ok, a little AI help) scripts. I ended up making a basic hello, a reation timer, a tree chopping game, a linux command line replica (I gave up when my take on the file system was too limted) and I threw in a AI made pong script. OlliesOS is next, which has most of these scripts in one GRUB container."
+        },
+        "3": {
+            "name": "OlliesOS",
+            "link": "https://github.com/OllieOlzu/OlliesISO",
+            "image": "screenshots/olliesos.png",
+            "description": "The collection of C scripts put into one system. I got this working on a real computer once, although prior to that, I had locked myself out of my own computer through bitlocker trying to make it work, so had to wipe everything."
+        },
+        "4": {
+            "name": "Youtube shorts remover chrome extention",
+            "link": "https://ollieolzu.github.io/Youtube-Shorts-Remover/",
+            "image": "screenshots/YTshortsrem.png",
+            "description": "In 2026 when I was 14, I made my first usable product. This does what it says - removes shorts for YT on all pages. I admit, this was mainly coded by AI, but I still needed to tell it what elements to hide and when, and also publish it on the chrome store."
+        }
+        
+    }
+}
