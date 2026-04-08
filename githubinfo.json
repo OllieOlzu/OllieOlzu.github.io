@@ -24,6 +24,30 @@
             "link": "https://ollieolzu.github.io/Youtube-Shorts-Remover/",
             "image": "screenshots/YTshortsrem.png",
             "description": "In 2026 when I was 14, I made my first usable product. This does what it says - removes shorts for YT on all pages. I admit, this was mainly coded by AI, but I still needed to tell it what elements to hide and when, and also publish it on the chrome store."
+        },
+        "5": {
+            "name": "Unity Hong Kong Mahjong",
+            "link": "https://github.com/OllieOlzu/Hong-Kong-Majong",
+            "image": "screenshots/HKM.png",
+            "description": "On a holiday in Ohakune for my grandad's 90th, I really wanted to play the authentic game myself, but all the other apps had weird fan conditions and used flower tiles, nither of which my family uses, so I set to work making this. The only two AI parts were the ray tracing script and the win condition script, both of which I didn't have the knowlage to do. The rest, the objects, the logic, even the chinese charactors I drew teribly myself, I all made myself. This is one of my favrioute thing I have made so far, because of how much effort and time I put in, and how good it turned out."
+        },
+        "6": {
+            "name": "ESP super mario bros",
+            "link": "https://github.com/OllieOlzu/Super-Mario-Bros-using-ESP-host",
+            "image": "screenshots/ESPmario.png",
+            "description": "This project combined Play Mario github, Little FS, and the ESP8622 to host HTML websites locally."
+        },
+        "7": {
+            "name": "Python to iso",
+            "link": "https://github.com/OllieOlzu/PYTHON2ISO",
+            "image": "screenshots/PY2ISO.png",
+            "description": "Here, you can put basic .py files onto a tiny linux core ISO. Admitedly, I did use quite alot of AI after I had the idea of running tiny operating systems."
+        },
+        "8": {
+            "name": "Local GGUF AI runner",
+            "link": "https://github.com/OllieOlzu/.GGUF-minimal-runner",
+            "image": "screenshots/GGUFrunner.png",
+            "description": "This project allows you to run .GGUF LLM models offline using llama.cpp and a selection script. Here, I'm running a tiiiny 350 million parameter model, which is over 1000 times smaller then chatgpt, and runs at about the same speed as its website."
         }
         
     }
