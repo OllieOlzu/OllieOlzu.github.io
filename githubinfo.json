@@ -29,7 +29,7 @@
             "name": "Unity Hong Kong Mahjong",
             "link": "https://github.com/OllieOlzu/Hong-Kong-Majong",
             "image": "screenshots/HKM.png",
-            "description": "On a holiday in Ohakune for my grandad's 90th, I really wanted to play the authentic game myself, but all the other apps had weird fan conditions and used flower tiles, nither of which my family uses, so I set to work making this. The only two AI parts were the ray tracing script and the win condition script, both of which I didn't have the knowlage to do. The rest, the objects, the logic, even the chinese charactors I drew teribly myself, I all made myself. This is one of my favrioute thing I have made so far, because of how much effort and time I put in, and how good it turned out."
+            "description": "On a holiday in Ohakune for my grandad's 90th, I really wanted to play the authentic game myself, but all the other apps had weird fan conditions and used flower tiles, nither of which my family uses, so I set to work making this. The only two AI parts were the ray tracing script and the win condition script, both of which I didn't have the knowlage to do. The rest, the objects, the logic, even the chinese charactors I drew teribly myself, I all made myself. This is one of my favrioute thing I have made so far, because of how much effort and time I put in, and how good it turned out. You can play it at https://ollieolzu.github.io/HKMweb"
         },
         "6": {
             "name": "ESP super mario bros",
