@@ -52,7 +52,7 @@
         "9": {
             "name": "3DP PCB generator",
             "link": "https://github.com/OllieOlzu/3DP-PCB-Generator",
-            "image": "screenshots/GGUFrunner.png",
+            "image": "screenshots/3DPCB.png",
             "description": "Although this project ended up not working, I like it because of the AI skills and geometry lessons, and PCB understanding I leared here. I tried to make it consistently cookie cut out a piece of aluminium foil to use as a PCB trace, but it never cut right."
         }
         
