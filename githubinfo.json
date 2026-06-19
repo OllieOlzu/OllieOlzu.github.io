@@ -49,6 +49,12 @@
             "image": "screenshots/GGUFrunner.png",
             "description": "This project allows you to run .GGUF LLM models offline using llama.cpp and a selection script. Here, I'm running a tiiiny 350 million parameter model, which is over 1000 times smaller then chatgpt, and runs at about the same speed as its website."
         }
+        "9": {
+            "name": "3DP PCB generator",
+            "link": "https://github.com/OllieOlzu/3DP-PCB-Generator",
+            "image": "screenshots/GGUFrunner.png",
+            "description": "Although this project ended up not working, I like it because of the AI skills and geometry lessons, and PCB understanding I leared here. I tried to make it consistently cookie cut out a piece of aluminium foil to use as a PCB trace, but it never cut right."
+        }
         
     }
 }
