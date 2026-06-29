@@ -48,7 +48,7 @@
             "link": "https://github.com/OllieOlzu/.GGUF-minimal-runner",
             "image": "screenshots/GGUFrunner.png",
             "description": "This project allows you to run .GGUF LLM models offline using llama.cpp and a selection script. Here, I'm running a tiiiny 350 million parameter model, which is over 1000 times smaller then chatgpt, and runs at about the same speed as its website."
-        }
+        },
         "9": {
             "name": "3DP PCB generator",
             "link": "https://github.com/OllieOlzu/3DP-PCB-Generator",
